@@ -1,0 +1,19 @@
+nav>div{
+    border:1px solid blue;
+    flex:1 1 150px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    flex-wrap:wrap;
+}
+.invisible{
+    display: none;
+}
+.more{
+    display: none;
+    background-color: blue;
+}
+.visible{
+    display: block;
+}
